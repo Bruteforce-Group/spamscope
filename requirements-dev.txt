@@ -26,3 +26,4 @@ git+https://github.com/stricaud/faup.git#egg=pyfaup&subdirectory=src/lib/binding
 # dev
 flake8
 coverage
+paramiko>=3.4.0 # not directly required, pinned by Snyk to avoid a vulnerability
